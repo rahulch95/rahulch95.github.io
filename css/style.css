@@ -1,0 +1,62 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+div {
+  text-align: center;
+}
+
+h1 {
+  font-size: 5em;
+  word-wrap: break-word;
+}
+
+h1, h4, i {
+  color: #fff;
+  -webkit-text-fill-color: transparent;
+  background: -webkit-linear-gradient(transparent, transparent), url("../img/cloth-red.jpg") repeat;
+  background: -o-linear-gradient(transparent, transparent);
+  -webkit-background-clip: text;
+  font-family: 'Open Sans', sans-serif;
+  margin: 1em 0;
+  text-align: center;
+}
+
+h4 {
+  font-size: 2em;
+  margin: 0.5em;
+}
+
+body {
+  background: #444 url("../img/texture.png");
+}
+
+i {
+  margin: 1em 0.32em;
+}
+
+.mail:hover {
+  font-size: 5em;
+}
+
+i:hover {
+  margin: 0.2em 0.12em;
+  font-size: 4em;
+}
+
+@font-face {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media only screen and (max-width: 450px) {
+  h1 {
+    font-size: 4em;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  h1 {
+    font-size: 3em;
+  }
+}
+
